@@ -44,7 +44,7 @@ NFT preview card component page, made with HTML and CSS, without any framework. 
 
 ### Useful resources
 
-- [Opacity with Box]([https://www.example.com](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity)) - This helped me to create image overlay with other image and background.
+- Opacity with Box - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity - This helped me to create image overlay with other image and background.
 
 ## Author
 
