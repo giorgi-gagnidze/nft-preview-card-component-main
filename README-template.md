@@ -48,4 +48,5 @@ NFT preview card component page, made with HTML and CSS, without any framework. 
 
 ## Author
 
-- Website - [siduki]((https://github.com/siduki))
+- GitHub - siduki - https://github.com/siduki
+
