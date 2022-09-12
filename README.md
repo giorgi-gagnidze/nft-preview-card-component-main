@@ -45,7 +45,7 @@ NFT preview card component page, made with HTML and CSS, without any framework. 
 ### Useful resources
 
 - Opacity with Box - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity - This helped me to create image overlay with other image and background.
-- "<hr>" styling - https://www.arclab.com/en/kb/htmlcss/how-to-cross-browser-style-hr-horizontal-rule-line-using-css.html - There was some issue with Google Chrome, when I make "<hr>" style and this resource give me sone clue.
+- "hr" styling - https://www.arclab.com/en/kb/htmlcss/how-to-cross-browser-style-hr-horizontal-rule-line-using-css.html - There was some issue with Google Chrome, when I make "hr" style and this resource give me sone clue.
 
 ## Author
 
