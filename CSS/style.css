@@ -6,4 +6,144 @@
 
 body {
     font-family: Outfit;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.main__container {
+    max-width: 345px;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px 22px 22px 22px;
+    border-radius: 10px;
+}
+
+.product__container {
+    position: relative;
+    max-width: 100%;
+}
+
+.product__img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.icon__img {
+    opacity: 0;
+    position: absolute;
+    bottom: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 100%;
+    height: 56%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(178, 100%, 50%, 0.5);
+    cursor: pointer;
+}
+
+.img__container:hover .product__image {
+    opacity: 0.3;
+}
+
+.img__container:hover .icon__img {
+    opacity: 1;
+}
+
+.text__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title__text:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.price__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.price__container>div {
+    display: flex;
+    width: 40%;
+}
+
+.line {
+    color: hsl(215, 32%, 27%);
+    /* border: none; */
+    width: 100%;
+}
+
+.avatar__container {
+    display: flex;
+}
+
+.avatar_img {
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.title__text {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.description__text {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.price__text {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 8px;
+    color: hsl(178, 100%, 50%);
+}
+
+.days__text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 8px;
+    color: hsl(215, 51%, 70%);
+}
+
+.avatar__container {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 15px 0;
+    font-weight: 300;
+}
+
+.creator__text {
+    color: hsl(215, 51%, 70%);
+}
+
+.name__text {
+    color: hsl(0, 0%, 100%);
+}
+
+.name__text:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
